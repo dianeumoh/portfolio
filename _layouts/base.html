@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e33123159d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/hover.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>{{ page.title }}</title>
+</head>
+
+<body>
+
+  <div class="content">
+    {% include header.html %}
+    {{content}}
+    {% include footer.html %}
+  </div>
+</body>
+<script>
+  document.getElementById('hamburger').onclick = function (e) {
+    document.querySelector('.nav').classList.toggle('mobile-visible');
+  }
+
+</script>
+
+</html>
