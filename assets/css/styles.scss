@@ -1,46 +1,60 @@
 ---
 ---
+
 h1 {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 h2 {
-    font-size:24px;
-    font-weight: 200;
-    padding: 10px;
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-.subhead {
-    font-size:24px;
-    font-weight: 200;
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #555555;
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.45em;
-    font-weight: 400;
+  font-size: 20px;
+  line-height: 1.45em;
+  font-weight: 400;
+  padding-bottom: 15px;
 }
 
 a:hover {
-    color: #49c7ec
+  color: #49c7ec;
 }
 * {
-    color: #333333;    
+  color: #333333;
 }
 
+.header a {
+  text-decoration: none;
+}
 
-body{
-    font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
 }
 
 .content {
   padding: 50px;
 }
 
+.content.narrow {
+  padding: 50px 300px;
+}
+
 .logo {
-    font-family: 'Patua One', cursive;
-    font-size: 22px;
+  font-family: "Patua One", cursive;
+  font-size: 22px;
 }
 
 .header {
@@ -69,23 +83,65 @@ body{
   margin-bottom: 10px;
 
   img {
-    width: 100%
+    width: 100%;
   }
 }
- .nav-social {
-        display: inherit;
-        position: relative;
-        text-align: center;
-        padding-top: 40px;
-        font-size: 30px;
-    }
+// About Me Page
 
+.about {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.black-white {
+  filter: grayscale(100%);
+}
+.atlas-picture {
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+}
+
+.about-atlas {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.profile-picture {
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+}
+
+// Case Study Pages
+.work-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.case-study {
+  flex: 1;
+}
+
+// Footer
+
+.nav-social {
+  display: inherit;
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+  border-top: #eeeeee 1px solid;
+  margin-top: 40px;
+}
+
+// End Footer
 @media (max-width: 762px) {
   .nav {
     &:not(.mobile-visible) {
       display: none;
     }
-    
+
     position: absolute;
     top: 0;
     left: 0;
@@ -99,7 +155,6 @@ body{
       padding-left: 0;
       padding-bottom: 10px;
     }
-
   }
   .hamburger {
     display: inherit;

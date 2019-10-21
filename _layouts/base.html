@@ -16,7 +16,7 @@
 
 <body>
 
-  <div class="content">
+  <div class="content{% if page.contentClass %} {{ page.contentClass }}{% endif %}">
     {% include header.html %}
     {{content}}
     {% include footer.html %}
