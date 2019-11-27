@@ -20,7 +20,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.563em;
+  font-size: 1.3em;
   // margin: 2.75rem 0 1rem;
   color: #555555;
   text-transform: uppercase;
@@ -257,6 +257,13 @@ body {
   width: 100%;
 }
 
+.work-content-problem {
+  width: 100%;
+}
+
+.spacer {
+  padding-top: 50px;
+}
 .work-intro {
   display: flex;
   justify-content: space-between;
@@ -308,13 +315,24 @@ body {
 .before-after-pain-point {
   padding-top: 3em;
   padding-bottom: 2em;
-  text-align: center;
+  text-align: left;
 }
 
 .before-after-row-images {
   padding-bottom: 50px;
 }
 
+.before-after-row-quotes {
+  padding-top: 50px;
+
+  img {
+    padding-bottom: 50px;
+  }
+}
+
+.prototype-video {
+  display: flex;
+}
 // End Case Study Pages
 
 // Footer
@@ -421,5 +439,15 @@ body {
     min-width: 200px;
     margin-right: 50px;
     margin-bottom: 30px;
+  }
+}
+
+.gifs-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+
+  img {
+    max-width: 30%;
   }
 }
