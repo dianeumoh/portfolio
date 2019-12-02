@@ -1,0 +1,15 @@
+url: "https://dianelabenz.dev" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+title: "Diane Labenz" # the name of your site, e.g. ACME Corp.
+
+description: >-
+  Diane Labenz's product design portfolio.
+
+# Server config
+livereload: true
+
+exclude:
+  - firebase.json
+  - .prettierrc
+  - .sass-cache/
+  - .jekyll-cache/

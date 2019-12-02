@@ -1,0 +1,42 @@
+<div class="vlt-projects-showcase__item">
+  <div class="container">
+    <div class="row align-items-center no-gutters">
+      <div class="col-md-6">
+        <div class="vlt-projects-showcase__content">
+          <div
+            data-swiper-parallax="-150"
+            data-swiper-parallax-opacity="0"
+            data-swiper-parallax-duration="1000"
+          >
+            <div class="d-sm-block d-md-none">
+              <img class="img-sm" src="{{ include.mobile_image_url }}" />
+            </div>
+            <div
+              class="zigzag"
+              style="background: 0 repeat-x url('data:image/svg+xml;utf-8,%3Csvg%20width%3D%2213px%22%20height%3D%2211px%22%20viewBox%3D%220%200%2018%2015%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon%20id%3D%22Combined-Shape%22%20fill%3D%22%2300bec5%22%20points%3D%228.98762301%200%200%209.12771969%200%2014.519983%209%205.40479869%2018%2014.519983%2018%209.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E');"
+            ></div>
+            <h3>
+              <span class="vlt-highlight">{{ include.title }}</span>
+            </h3>
+            <span class="vlt-display-1">{{ include.category }}</span>
+            <p>
+              {{ include.description }}
+            </p>
+            <!--Button-->
+            <a
+              class="vlt-btn vlt-btn--primary vlt-btn--md vlt-btn--effect"
+              href="{{ include.link }}"
+              target="_self"
+            >
+              <span>Read Case Study</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="vlt-projects-showcase__image d-none d-md-block">
+        <img class="swiper-lazy" data-src="{{ include.image_url }}" />
+        <div class="swiper-lazy-preloader"></div>
+      </div>
+    </div>
+  </div>
+</div>

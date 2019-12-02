@@ -1,0 +1,101 @@
+<body>
+
+	<!--Site Wrapper-->
+	<div class="vlt-site-wrapper">
+		<!--Site Wrapper Inner-->
+		<div class="vlt-site-wrapper__inner">
+			{% include _header.html logoClass="white" %}
+			<!--Header-->
+
+			<!--Main-->
+			<main class="vlt-main">
+				<!--Page Title-->
+				<section>
+					<!--Page Title Hero-->
+					<div class="vlt-page-title-hero vlt-page-title-hero--work vlt-page-title-hero--md jarallax">
+						<div class="vlt-page-title-hero__overlay"></div><img class="jarallax-img" src="assets/img/attachment-28.jpg"
+							alt="">
+						<div class="vlt-page-title-hero__content">
+							<div class="container">
+								<div class="row">
+									<div class="col-10 offset-1">
+										<h1 class="vlt-page-title-hero__title">Creative App.
+										</h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="content"></div>
+				</section>
+				<!--Case Study Overview-->
+
+				{% include _countable_overview.html %}
+
+				<!-- Banner Image 1-->
+				{% include _countable_banner_1.html %}
+
+
+				<!--Content-->
+				{% include _countable_problemsolution.html %}
+				<!--Image Section-->
+				<!--Banner Image 2-->
+				{% include _countable_banner_2.html %}
+				<!--Content-->
+				{% include _countable_finalresults_1.html %}
+				<!--Banner Image 3-->
+				{% include _countable_banner_3.html %}
+
+				<!-- Content-->
+				{% include _countable_research.html %}
+				<!--Testimonial 03-->
+				<section class="position-relative jarallax"><img class="jarallax-img" src="assets/img/attachment-06.jpg" alt="">
+					<div class="jarallax-overlay" style="background-color: rgba(0,183,190,0.9);"></div>
+					<div class="vlt-gap-110"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 offset-md-3">
+								<!--Testimonial Item-->
+								<div class="vlt-testimonial-item vlt-testimonial-item--style-1">
+									<div class="icon" data-swiper-parallax="-420" style="color:#fdf4b4;"><i class="leedo-quote"></i></div>
+									<div class="vlt-testimonial-item__content">
+										<p data-swiper-parallax="-280" style="color:#fff;">Years living hath lights all from fifth all
+											image. Fill likeness fly rule. Second beginning had likeness earth made, deep second.
+										</p>
+									</div>
+									<div class="vlt-testimonial-item__metas">
+										<h5 class="vlt-display-1" data-swiper-parallax="-140" style="color:#fff;">Paul Jefferson
+										</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="vlt-gap-110"></div>
+				</section>
+				<!--Final Results and Thoughts -->
+				{% include _countable_finalresultsthoughts_2.html %}
+			</main>
+			<!--Post Navigation-->
+			<nav class="vlt-post-navigation">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="d-flex col">
+						</div>
+						<div class="d-flex col justify-content-end">
+							<h5 class="vlt-display-1"><a class="next" href="/amazonkids/"><span>Next Work</span></a></h5>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<!--Back to Top--><a class="vlt-btn vlt-btn--secondary vlt-btn--effect vlt-btn--go-top hidden" href="#"><span><i
+						class="leedo-chevron-up"></i></span></a>
+		</div>
+		<!--Footer-->
+		{% include _footer.html %}
+	</div>
+	<!--Libs-->
+	<script src="assets/scripts/vlt-plugins.min.js"></script>
+	<script src="assets/scripts/vlt-helpers.js"></script>
+	<script src="assets/scripts/vlt-controllers.min.js"></script>
+</body>

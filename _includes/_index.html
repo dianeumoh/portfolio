@@ -1,0 +1,48 @@
+<div class="vlt-site-wrapper">
+  <!--Site Wrapper Inner-->
+  <div class="vlt-site-wrapper__inner">
+    {% include _header.html %}
+    <!--Main-->
+    <main class="vlt-main">
+      <!--Projects Showcase 03-->
+      <section>
+        <div class="container-fluid p-0">
+          <!--Projects Showcase-->
+          <div class=" vlt-projects-showcase vlt-projects-showcase--style-3">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                {% include _portfolio-item.html title="Amazon Kids"
+                category="Responsive Web, B2C, Landing Page"
+                mobile_image_url="https://picsum.photos/1200/800"
+                image_url="https://picsum.photos/800/1200" description="Developing a one-stop resource for parent's needs" link="/amazonkids/" %}
+                <!-- Include 2 -->
+                {% include _portfolio-item.html title="Latern"
+                category="Responsive Web, B2C, Onboarding Flow"
+                mobile_image_url="https://picsum.photos/1200/800"
+                image_url="https://picsum.photos/800/1200" description="Simplifying the onboarding experience for software engineers" link ="/lantern/" %}
+                <!-- Include 3 -->
+                {% include _portfolio-item.html title="Streamloan.io"
+                category="iOS Mobile, SaaS, Information Architecture"
+                mobile_image_url="https://picsum.photos/1200/800"
+                image_url="https://picsum.photos/800/1200" description="Streamlining the loan condition processes for loan officers" link="/streamloanio/" %}
+                <!-- Include 4 -->
+                {% include _portfolio-item.html title="Countable" category="iOS
+                Mobile, B2C, Search & Discover"
+                mobile_image_url="https://picsum.photos/1200/800"
+                image_url="https://picsum.photos/800/1200" description="Helping
+                users discover political issues that matter" link="/countable/" %}
+                <!-- Include 5 -->
+              </div>
+              <div class="vlt-swiper-pagination vlt-swiper-pagination--style-2 vlt-display-1">
+                <div class="container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Back to Top--><a class="vlt-btn vlt-btn--secondary vlt-btn--effect vlt-btn--go-top hidden" href="#"><span><i
+          class="leedo-chevron-up"></i></span></a>
+  </div>
+  <!--Footer-->
+</div>

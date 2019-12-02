@@ -1,0 +1,149 @@
+.img-sm {
+  /* max-height: 300px; */
+  object-fit: cover;
+  padding: 20px 0px;
+  /* max-height: 200px; */
+  width: 100%;
+}
+
+@font-face {
+  font-family: "gilroy-extrabold";
+  src: url("/assets/fonts/gilroy_extrabold_macroman/gilroy-extrabold-webfont.woff2") format("woff2"),
+    url("gilroy-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy-light";
+  src: url("/assets/fonts/gilroy_light_macroman/gilroy-light-webfont.woff2") format("woff2"),
+    url("gilroy-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+
+  .vlt-projects-showcase--style-3 .container,
+  .vlt-projects-showcase--style-3 .row {
+    height: inherit;
+  }
+
+  .vlt-projects-showcase--style-3 .container,
+  .vlt-projects-showcase--style-3 .align-items-center {
+    align-items: inherit !important;
+  }
+}
+
+/* Logo */
+.new-logo {
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "gilroy-light";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* Font */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "gilroy-extrabold";
+  font-weight: 700;
+  /* letter-spacing: 0.1em; */
+  color: #0b0b0b;
+}
+
+/* Home Portfolio Font Style */
+.vlt-comment-item__inner .vlt-comment-content .vlt-projects-showcase--style-3 .vlt-projects-showcase__content span.vlt-comment-header__metas,
+.vlt-projects-showcase--style-3 .vlt-projects-showcase__content .vlt-comment-item__inner .vlt-comment-content span.vlt-comment-header__metas,
+.vlt-projects-showcase--style-3 .vlt-projects-showcase__content .vlt-review-item__inner .vlt-comment-content span.vlt-comment-header__metas,
+.vlt-projects-showcase--style-3 .vlt-projects-showcase__content .vlt-review-item__inner .vlt-review-content span.vlt-comment-header__metas,
+.vlt-projects-showcase--style-3 .vlt-projects-showcase__content span.vlt-display-1,
+.vlt-projects-showcase--style-3 .vlt-projects-showcase__content span.vlt-simple-link,
+.vlt-review-item__inner .vlt-comment-content .vlt-projects-showcase--style-3 .vlt-projects-showcase__content span.vlt-comment-header__metas,
+.vlt-review-item__inner .vlt-review-content .vlt-projects-showcase--style-3 .vlt-projects-showcase__content span.vlt-comment-header__metas {
+  font-family: "Muli";
+  font-size: 14px;
+  display: block;
+  margin: 12px 0 0;
+  color: #0b0b0b;
+  font-weight: 900;
+}
+
+body {
+  font-family: "Muli";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.65;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.004em;
+  color: #333333;
+}
+
+/* Button Style */
+.vlt-btn {
+  font-family: "Muli";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Case Study Pages */
+
+.vlt-work-meta {
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #0b0b0b;
+}
+
+.cs-subheader {
+  text-transform: uppercase;
+  color: #7b7479;
+  font-family: "Muli";
+  font-weight: 400;
+}
+
+.cs-title {
+  text-transform: none;
+}
+
+.vlt-page-title-hero__content {
+  text-align: left !important;
+}
+
+/* Footer */
+
+.vlt-footer--widgetized {
+  padding: 80px 0;
+  background-image: url(../img/attachment-04.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.vlt-footer--widgetized .vlt-footer-copyright {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vlt-widget--white.vlt-widget.vlt-widget-nav-menu,
+.vlt-widget.vlt-widget--white.vlt-widget-categories {
+  font-weight: 400;
+  text-align: center;
+}
